@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karthik | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top left, #0a0a0f, #111827);
+      color: #f3f4f6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(10px);
+      padding: 15px 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #d1d5db;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 120px 40px 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #home h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    #home p.role {
+      font-size: 1.2rem;
+      color: #9ca3af;
+      margin-bottom: 20px;
+    }
+
+    .contact-info a {
+      display: inline-block;
+      margin: 8px 16px;
+      color: #f3f4f6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .contact-info a:hover {
+      color: #60a5fa;
+    }
+
+    .btns {
+      margin-top: 30px;
+    }
+
+    .btns a {
+      background: #2563eb;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btns a:hover {
+      background: #1d4ed8;
+    }
+
+    section:nth-child(even) {
+      background: #111827;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 700px;
+      color: #d1d5db;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #9ca3af;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      #home h1 { font-size: 2.2rem; }
+      nav a { margin: 0 10px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#Education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Hi Section -->
+  <section id="home">
+    <h1>Hi, I’m Karthik 👋</h1>
+    <p class="role">Salesforce Administrator | Data Analyst| Tech Enthusiast</p>
+
+    <div class="contact-info">
+      <a href="tel:+919790719570">📞 +91 9449370524</a>
+      <a href="mailto:youremail@example.com">✉️ karthik561058@gmail.com</a>
+      <a href="https://github.com/karthik561058" target="_blank">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/karthik-s-r2/" target="_blank">💼 LinkedIn</a>
+      <a href="resume.pdf" target="_blank">📄 Resume</a>
+    </div>
+
+    <div class="btns">
+    
+      <a href="#projects">View Projects</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="color:#d1d5db; line-height:1.6;">
+    I’m a results-driven professional with hands-on experience in Salesforce Administration, CPQ configuration, and Data Analysis. I specialize in optimizing CRM workflows, automating business processes, and generating actionable insights through data. My passion lies in bridging the gap between business needs and technical solutions. I enjoy working with cross-functional teams to streamline sales operations and enhance data-driven decision-making. Always eager to learn and adapt, I thrive in environments that challenge both my analytical and problem-solving skills.</p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+     <div style="max-width:700px; text-align:left;">
+    
+    <div style="margin-bottom:30px;">
+      <h3 style="color:#60a5fa;">Salesforce Admin <span style="color:#9ca3af;">| Aug 2024 – Present</span></h3>
+      <p style="color:#d1d5db; margin:5px 0;"><strong>Stanley Retail Limited</strong></p>
+      <p style="color:#d1d5db; line-height:1.6;">
+        Managing Flows, Workflows, Business Analysis, Data Migration, Automation, and User Configurations in Salesforce.
+        Experienced across Marketing, Sales, and Service Clouds with development exposure in Visualforce Pages and process optimization.
+      </p>
+    </div>
+
+    <div style="margin-bottom:30px;">
+      <h3 style="color:#60a5fa;">QC Engineer <span style="color:#9ca3af;">| Aug 2023 – Mar 2024</span></h3>
+      <p style="color:#d1d5db; margin:5px 0;"><strong>Magnasoft Consulting Pvt Ltd</strong></p>
+      <p style="color:#d1d5db; line-height:1.6;">
+        Conducted quality checks, data validation, and analysis ensuring data integrity across systems. Collaborated with cross-functional teams to improve project accuracy and workflow efficiency.
+      </p>
+    </div>
+
+  </div>
+  </section>
+  
+  <!--Education--!>
+  <section id="Education">
+  <h2>Education</h2>
+
+  <div style="max-width:700px; text-align:left;">
+    
+    <div style="margin-bottom:30px;">
+      
+      <p style="color:#d1d5db; margin:5px 0;"><strong>Malnad College Of Engineering</strong><span style="color:#9ca3af;"> | 2020-2023</span></p>
+      <p style="color:#d1d5db; line-height:1.6;">Bachelor of Engineering (B.E.) — Computer Science</p>
+    </div>
+
+    <div style="margin-bottom:30px;">
+      
+      <p style="color:#d1d5db; margin:5px 0;"><strong>Shree Siddarameshwara Polytechnic </strong><span style="color:#9ca3af;"> | 2017 – 2020</span></p>
+      <p style="color:#d1d5db; line-height:1.6;">Department of Technical Education — Computer Science</p>
+    </div>
+
+    <div style="margin-bottom:30px;">
+      
+      <p style="color:#d1d5db; margin:5px 0;"><strong>JSS Public School,Bage</strong><span style="color:#9ca3af;"> | 2017</span></p>
+      <p style="color:#d1d5db; line-height:1.6;">CBSE
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Check out some of my work on GitHub — ranging from Salesforce automations to data dashboards and portfolio designs.</p>
+  </section>
+
+  
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Interested in collaborating or hiring me? Drop me a quick message below!</p>
+
+  <form action="mailto:youremail@example.com" method="post" enctype="text/plain"
+        style="max-width:500px; width:100%; margin-top:20px;">
+        
+    <input type="text" name="name" placeholder="Your Name" required
+           style="width:100%; padding:10px; margin:10px 0; border-radius:8px; border:none; background:#1f2937; color:white;">
+           
+    <input type="text" name="contact" placeholder="Your Contact Number" required
+           style="width:100%; padding:10px; margin:10px 0; border-radius:8px; border:none; background:#1f2937; color:white;">
+           
+    <textarea name="message" rows="5" placeholder="Your Message" required
+              style="width:100%; padding:10px; margin:10px 0; border-radius:8px; border:none; background:#1f2937; color:white;"></textarea>
+              
+    <button type="submit"
+            style="background:#2563eb; color:white; border:none; padding:12px 20px; border-radius:8px; font-weight:600; cursor:pointer;">
+      Send Message
+    </button>
+  </form>
+</section>
+
+
+  <footer>
+    © 2025 Karthik — Built with ❤️ and HTML, CSS, JS
+  </footer>
+
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
